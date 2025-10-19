@@ -15,9 +15,18 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Categories", name: "categories", widget: "list", required: false}
-      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Category", name: "categories", widget: "select", options: ["research", "Intel", "other"], default: "other"}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - {label: "Authors (for research papers)", name: "authors", widget: "string", required: false, hint: "e.g., <strong>Your Name</strong>, Co-Author Name"}
+      - {label: "Venue (for research papers)", name: "venue", widget: "string", required: false, hint: "e.g., CVPR, NeurIPS, arXiv"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "ArXiv Link", name: "arxiv", widget: "string", required: false}
+      - {label: "Video Link", name: "video", widget: "string", required: false}
+      - {label: "Code Link", name: "code", widget: "string", required: false}
+      - {label: "Website Link", name: "website", widget: "string", required: false}
+      - {label: "Paper Link", name: "paper", widget: "string", required: false}
+      - {label: "Poster Link", name: "poster", widget: "string", required: false}
+      - {label: "Slides Link", name: "slides", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "settings"
