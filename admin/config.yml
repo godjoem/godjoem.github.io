@@ -11,23 +11,44 @@ collections:
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "markdown"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Category", name: "categories", widget: "select", options: ["research", "Intel", "other"], default: "other"}
-      - {label: "Author", name: "author", widget: "string", required: false}
-      - {label: "Authors (for research papers)", name: "authors", widget: "string", required: false, hint: "e.g., <strong>Your Name</strong>, Co-Author Name"}
-      - {label: "Venue (for research papers)", name: "venue", widget: "string", required: false, hint: "e.g., CVPR, NeurIPS, arXiv"}
-      - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "ArXiv Link", name: "arxiv", widget: "string", required: false}
-      - {label: "Video Link", name: "video", widget: "string", required: false}
-      - {label: "Code Link", name: "code", widget: "string", required: false}
-      - {label: "Website Link", name: "website", widget: "string", required: false}
-      - {label: "Paper Link", name: "paper", widget: "string", required: false}
-      - {label: "Poster Link", name: "poster", widget: "string", required: false}
-      - {label: "Slides Link", name: "slides", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Category", name: "categories", widget: "select", options: ["research", "Intel", "Stanford", "CMU", "UC", "Other"], default: "Other"}
+      - {label: "Author", name: "author", widget: "string", required: false, default: "Leo Keselman"}
+      - {label: "Featured Image", name: "image", widget: "string", required: false, hint: "Path like /images/project.jpg or full URL"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+
+      # Research Paper Fields
+      - {label: "Authors (research papers)", name: "authors", widget: "string", required: false, hint: "e.g., <strong>Your Name</strong>, Co-Author Name"}
+      - {label: "Venue (research papers)", name: "venue", widget: "string", required: false, hint: "e.g., CVPR, NeurIPS, arXiv"}
+
+      # Course Project Fields
+      - {label: "Course", name: "course", widget: "string", required: false, hint: "e.g., CS231n: Convolutional Neural Networks"}
+
+      # Document Links
+      - {label: "ArXiv Link", name: "arxiv", widget: "string", required: false, hint: "Full URL to arxiv.org"}
+      - {label: "Paper PDF", name: "paper", widget: "string", required: false, hint: "Path like /pdfs/paper.pdf"}
+      - {label: "Slides PDF", name: "slides", widget: "string", required: false, hint: "Path like /pdfs/slides.pdf"}
+      - {label: "Poster PDF", name: "poster", widget: "string", required: false, hint: "Path like /pdfs/poster.pdf"}
+
+      # Patent Links
+      - {label: "Patent Link", name: "patent", widget: "string", required: false, hint: "Full URL to patent"}
+      - {label: "Patent #2", name: "patent2", widget: "string", required: false, hint: "Full URL to second patent"}
+      - {label: "Patent #3", name: "patent3", widget: "string", required: false, hint: "Full URL to third patent"}
+
+      # Video Links
+      - {label: "Video Link", name: "video", widget: "string", required: false, hint: "YouTube or video URL"}
+      - {label: "Video #2", name: "video2", widget: "string", required: false, hint: "Second video URL"}
+      - {label: "YouTube Link", name: "youtube", widget: "string", required: false, hint: "Alternative to Video Link field"}
+
+      # Other Links
+      - {label: "Code Repository", name: "code", widget: "string", required: false, hint: "GitHub or repository URL"}
+      - {label: "Project Website", name: "website", widget: "string", required: false, hint: "Project page URL"}
+
+      - {label: "Body", name: "body", widget: "markdown", required: false}
 
   - name: "settings"
     label: "Site Settings"
