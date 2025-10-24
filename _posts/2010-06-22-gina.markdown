@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "GINA: Wireless sensor platform"
-date:   2010-06-22 18:08:39 +00:00
-image: /images/gina-motes.jpg
+title: "GINA: Wireless sensor platform hahaha"
+date: 2010-06-22 18:08:39 +00:00
 categories: UC
+author: Leo Keselman
+image: /images/gina-motes.jpg
+subtitle: A low power, wireless sensor
 course: " Berkeley"
-author: "Leo Keselman"
-subtitle: "A low power, wireless sensor"
 ---
 I helped Anita Flynn and Thomas Watteyne build these small sensors and wrote firmware. 
 
