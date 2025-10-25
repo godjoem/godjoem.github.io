@@ -1,4 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" fill="#2c5aa0"/>
-  <text x="50" y="70" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="white" text-anchor="middle">YJ</text>
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c5aa0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" fill="url(#bg)" rx="15"/>
+
+  <!-- Heartbeat line (ECG) -->
+  <path d="M 15 50 L 25 50 L 30 35 L 35 65 L 40 45 L 45 50 L 85 50"
+        stroke="#ff6b6b" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Data points -->
+  <circle cx="30" cy="35" r="3" fill="#ffd93d"/>
+  <circle cx="35" cy="65" r="3" fill="#ffd93d"/>
+  <circle cx="40" cy="45" r="3" fill="#ffd93d"/>
+
+  <!-- Stethoscope chest piece -->
+  <circle cx="70" cy="70" r="8" fill="none" stroke="white" stroke-width="2.5"/>
+  <circle cx="70" cy="70" r="4" fill="white"/>
+
+  <!-- Stethoscope tube -->
+  <path d="M 70 62 Q 75 50 75 35" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 70 62 Q 65 50 65 35" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Earpieces -->
+  <circle cx="75" cy="32" r="3" fill="white"/>
+  <circle cx="65" cy="32" r="3" fill="white"/>
+
+  <!-- YJ initials (smaller) -->
+  <text x="22" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">YJ</text>
 </svg>
