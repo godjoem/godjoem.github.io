@@ -2,6 +2,7 @@
 layout: post
 title: "Unobtrusive and Continuous Measurements of Dynamic Beat-to-beat Blood Pressure Using Multimodal Physiological Signals"
 date: 2024-09-18 00:00:00 +00:00
+image: /images/mmbp_result.png
 categories: research
 author: "Yanwei Jin"
 venue: "IEEE Journal of Biomedical and Health Informatics (JBHI)"

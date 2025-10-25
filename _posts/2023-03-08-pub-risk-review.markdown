@@ -2,6 +2,7 @@
 layout: post
 title: "Public risk perceptions and coping behaviors in novel coronavirus pneumonia outbreaks: a systematic review"
 date: 2023-03-08 00:00:00 +00:00
+image: /images/risk_kg01.png
 categories: research
 author: "Yanwei Jin"
 authors: "<strong>Jin YW</strong>, Sun HY, Ji Y"

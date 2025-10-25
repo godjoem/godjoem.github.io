@@ -2,6 +2,7 @@
 layout: post
 title: "Evolution of risk perception of medical staff during public health emergencies: a qualitative study"
 date: 2022-08-14 00:00:00 +00:00
+image: /images/nursingX.png
 categories: research
 author: "Yanwei Jin"
 authors: "Li YQ, Gu JN, Sun YM, Shao J, Dang Y, Guo JM, <strong>Jin YW</strong>, Hu GY, Sun HY"

@@ -2,6 +2,7 @@
 layout: post
 title: "Beat-to-beat continuous blood pressure estimation with optimal feature set of PPG and ECG signals using deep recurrent neural networks"
 date: 2023-10-20 00:00:00 +00:00
+image: /images/cufflessbp01.png
 categories: research
 author: "Yanwei Jin"
 authors: "Chen H, Lyu L, Zeng Z, <strong>Jin Y</strong>, Zhang Y"
