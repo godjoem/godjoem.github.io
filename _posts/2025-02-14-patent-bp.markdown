@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Model Training Method, Physiological Indicator Detection Method, Apparatus, and Electronic Device"
+date: 2025-02-14 00:00:00 +00:00
+image: /images/patent.png
+categories: research
+author: "Yanwei Jin"
+authors: "Henjie Chen, Liangyi Lyu, Lingfeng Li, <strong>Yanwei Jin</strong>"
+venue: "CN Patent CN119441860A"
+---
+**Patent** for a model training method, physiological indicator detection method, apparatus, and electronic device. This patent covers innovative approaches for training machine learning models and detecting physiological indicators using wearable devices and sensor technologies. Patent Number: **CN119441860A**, Application Number: CN202411352734.6, granted by the China National Intellectual Property Administration.
