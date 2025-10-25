@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Unobtrusive and Continuous Measurements of Dynamic Beat-to-beat Blood Pressure Using Multimodal Physiological Signals"
+date: 2024-09-18 00:00:00 +00:00
+categories: research
+author: "Yanwei Jin"
+venue: "IEEE Journal of Biomedical and Health Informatics (JBHI)"
+---
+McBP-Net, a deep learning model using a hybrid CNN-LSTM architecture with multimodal signals and handcrafted features, significantly improves the accuracy of continuous beat-to-beat blood pressure estimation, achieving promising results for wearable cuffless BP measurements and outperforming existing methods in both accuracy and computational efficiency. (Under Review)
