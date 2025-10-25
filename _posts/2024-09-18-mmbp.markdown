@@ -5,6 +5,6 @@ date: 2024-09-18 00:00:00 +00:00
 image: /images/mmbp_result.png
 categories: research
 author: "Yanwei Jin"
-venue: "IEEE Journal of Biomedical and Health Informatics (JBHI)"
+venue: "IEEE Journal of Biomedical and Health Informatics (JBHI) (Under Review)"
 ---
-McBP-Net, a deep learning model using a hybrid CNN-LSTM architecture with multimodal signals and handcrafted features, significantly improves the accuracy of continuous beat-to-beat blood pressure estimation, achieving promising results for wearable cuffless BP measurements and outperforming existing methods in both accuracy and computational efficiency. (Under Review)
+**McBP-Net**, a deep learning model using a hybrid CNN-LSTM architecture with multimodal signals (PPG, IPG, ECG, and temperature) and handcrafted features, significantly improves the accuracy of continuous beat-to-beat blood pressure estimation. Validated on 23 subjects, it achieves mean absolute errors of 4.19 mmHg (SBP) and 2.98 mmHg (DBP), outperforming single and dual-modality approaches by up to 49.52%. The model demonstrates promising potential for medical-grade wearable cuffless dynamic BP measurements with strong generalizability across different BP levels.
