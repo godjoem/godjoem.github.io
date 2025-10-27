@@ -2,7 +2,7 @@
 layout: post
 title: "Dynamic Beat-to-Beat Measurements of Blood Pressure Using Multimodal Physiological Signals and a Hybrid CNN-LSTM Model"
 date: 2025-08-01 00:00:00 +00:00
-image: /images/mmbp_result.png
+image: /images/mmbp_result.jpg
 categories: research
 author: "Yanwei Jin"
 authors: "Ting Xiang*, <strong>Yanwei Jin*</strong>, Zijun Liu, Lei Clifton, David A. Clifton, Yiming Zhang"
