@@ -9,4 +9,4 @@ authors: "Shuang Zhou, Wenya Xie, Jiaxi Li, Zaifu Zhan, Meijia Song, Han Yang, C
 venue: "arXiv preprint"
 arxiv: https://arxiv.org/pdf/2507.07988
 ---
-We introduce **MedThink-Bench**, a benchmark for rigorous assessment of LLMs' medical reasoning with 500 questions across ten domains, each annotated with expert step-by-step rationales. We propose **LLM-w-Ref**, a novel evaluation framework using LLM-as-a-Judge to assess reasoning with expert-level fidelity. Benchmarking twelve state-of-the-art LLMs showed smaller models (e.g., MedGemma-27B) can surpass larger proprietary ones (e.g., OpenAI-o3).
+**MedThink-Bench**: 500-question benchmark for assessing LLMs' medical reasoning with expert rationales. Our **LLM-w-Ref** framework showed smaller models (MedGemma-27B) can surpass larger proprietary ones (OpenAI-o3).

@@ -9,4 +9,4 @@ authors: "<strong>Yanwei Jin</strong>, Yinzhao Wang, Xiaodong Huang, David A Wac
 venue: "medRxiv"
 paper: https://www.medrxiv.org/content/10.1101/2025.09.27.25336784v1.full.pdf
 ---
-We developed the **Emergency Sepsis Risk Prediction (ESRP) score** using the AutoScore framework based on electronic health records from three health systems. The ESRP score demonstrates superior performance compared to qSOFA, NEWS, MEWS, and REMS for early sepsis identification in emergency departments across multiple healthcare systems.
+**Emergency Sepsis Risk Prediction (ESRP) score** using AutoScore framework on multi-center EHR data. Outperforms qSOFA, NEWS, MEWS, and REMS for early sepsis identification in emergency departments.

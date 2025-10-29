@@ -9,4 +9,4 @@ authors: "T Xiang, ZJ Liu, <strong>YW Jin</strong>, N Ji and YT Zhang*"
 venue: "Online Journal of Robotics & Automation Technology"
 paper: https://irispublishers.com/ojrat/pdf/OJRAT.MS.ID.000541.pdf
 ---
-Investigates the effects of **cold pressor test** on heart rate and HRV in 22 subjects. Cold water exposure significantly increased HR (p<0.001) and decreased HRV, reflecting autonomic balance regulation.
+**Cold pressor test** effects on heart rate and HRV in 22 subjects. Cold exposure significantly increased HR (p<0.001) and decreased HRV.

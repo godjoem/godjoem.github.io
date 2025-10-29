@@ -9,4 +9,4 @@ authors: "Ting Xiang*, <strong>Yanwei Jin*</strong>, Zijun Liu, Lei Clifton, Dav
 venue: "IEEE Journal of Biomedical and Health Informatics"
 paper: https://ieeexplore.ieee.org/abstract/document/11118952/
 ---
-We propose **multimodal McBP-Net**, a hybrid CNN-LSTM architecture for continuous beat-to-beat blood pressure estimation using PPG, ECG, IPG, and skin temperature signals. Validated on 23 subjects during cold pressor test, McBP-Net achieves mean absolute errors of **4.19 and 2.98 mmHg** for systolic and diastolic BP. Published in **IEEE JBHI (Volume 29, Issue 8)**.
+**Multimodal McBP-Net**: hybrid CNN-LSTM for continuous beat-to-beat BP estimation from PPG, ECG, IPG, and skin temperature. Achieves MAE of **4.19 and 2.98 mmHg** for SBP/DBP. Published in **IEEE JBHI**.

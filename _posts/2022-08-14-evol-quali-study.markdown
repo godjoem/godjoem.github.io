@@ -9,4 +9,4 @@ authors: "Li YQ, Gu JN, Sun YM, Shao J, Dang Y, Guo JM, <strong>Jin YW</strong>,
 venue: "Modern Clinical Nursing"
 paper: https://d.wanfangdata.com.cn/periodical/ChlQZXJpb2RpY2FsQ0hJTmV3UzIwMjMxMjI2Eg94ZGxjaGwyMDIyMDgwMDcaCG1pOW43MjZz
 ---
-A **qualitative phenomenological study** exploring risk perception evolution among medical staff during public health emergencies. Semi-structured interviews with 16 staff identified three stages: **Vigilance** (high alertness and active protection), **Observation** (standardized behaviors and emotional fluctuation), and **Maintenance** (normalized adaptation with stable response).
+**Qualitative study** on medical staff risk perception evolution during public health emergencies. Identified three stages: **Vigilance**, **Observation**, and **Maintenance**.
