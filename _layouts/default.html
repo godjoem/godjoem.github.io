@@ -72,7 +72,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>News</h2>
+              <h2><strong>News</strong></h2>
             </td>
           </tr>
         </table>
@@ -81,7 +81,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:top">
               {% for item in site.data.news %}
               <p style="margin:5px 0;">
-                · <strong>{{ item.date | date: "%b %Y" }}</strong>: {{ item.text }}
+                <span style="font-size:20px;">·</span> [{{ item.date | date: "%m/%Y" }}] {{ item.text }}
               </p>
               {% endfor %}
             </td>
@@ -91,7 +91,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Publications</h2>
+              <h2><strong>Publications</strong></h2>
               <p>
                 My research focuses on E-health, disease modeling, and the application of machine learning and statistical methods to improve healthcare outcomes.
               </p>
