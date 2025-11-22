@@ -102,6 +102,28 @@ span.highlight {
 /* News Section Styles */
 .news-section {
   margin-bottom: 30px;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+
+  /* Scrollbar styling for webkit browsers */
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }
 
 .news-list {
@@ -139,6 +161,30 @@ span.highlight {
 .news-item a:hover {
   color: #f09228;
   text-decoration: underline;
+}
+
+/* Publication Image Card Styles */
+.pub-image-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  width: 100%;
+}
+
+.pub-image-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pub-image-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

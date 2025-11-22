@@ -110,7 +110,9 @@
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:40%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <div class="pub-image-card">
+                <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              </div>
             </td>
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               {% if post.paper %}
